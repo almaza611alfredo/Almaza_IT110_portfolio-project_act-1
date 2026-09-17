@@ -70,3 +70,52 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+
+.aboutmephoto {
+  height: 250px;
+  object-fit: cover;
+  display: flex;
+  flex-direction: row;
+}
+
+.bio {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: justify;
+  margin-top: 100px;
+}
+
+.handb {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  background-color: #250505;
+  height: 100%;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin-left: 50px;
+  color: #f5f5f5;
+}
+
+.hobbies {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  color: #f5f5f5;
+}
+
+.hobbylist {
+  line-height: 1.5;
+}
